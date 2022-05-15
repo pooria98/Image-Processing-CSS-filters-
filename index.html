@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image processing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+            <label>Brightness<input type="range" min="0" max="100" id="brightness" value="50"></label>
+            <br>
+            <label>Contrast<input type="range" min="0" max="100" id="contrast" value="50"></label>
+            <br>
+            <label>Hue<input type="range" min="0" max="100" id="hue" value="0"></label>
+            <br>
+            <label>Saturation<input type="range" min="0" max="100" id="saturation" value="50"></label>
+            <br>
+            <label>Blur<input type="range" min="0" max="100" id="blur" value="0"></label>
+            <br>
+            <label>Opacity<input type="range" min="0" max="100" id="opacity" value="100"></label>
+            <br>
+            <label>Invert<input type="range" min="0" max="100" id="invert" value="0"></label>
+            <br>
+            <label>Sepia<input type="range" min="0" max="100" id="sepia" value="0"></label>
+            <br>
+            <button id="reset">Reset</button>
+            <button id="randomize">Randomize</button>
+        </div>
+        <div class="image">
+            <img src="image.jpg" alt="image">
+        </div>
+    </div>
+    
+</body>
+</html>
